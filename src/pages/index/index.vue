@@ -7,7 +7,6 @@
 </template>
 
 <script>
-	import { flattenDeep } from 'lodash-es';
 	import comTest from '../../components/test/test';
 	export default {
 		data() {
@@ -16,7 +15,10 @@
 			}
 		},
 		onLoad() {
-
+			console.log('Page onLoad');
+		},
+		onReady() {
+			console.log('Page onReady');
 		},
 		components: {
 			comTest,
