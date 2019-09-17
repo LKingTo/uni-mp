@@ -58,9 +58,10 @@
     "postcss-comment": "^2.0.0",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
-		"sass-loader": "^7.2.0",
-		"sass-resources-loader": "^2.0.1",
-		"vue-template-compiler": "^2.6.10"
+    "sass-loader": "^7.2.0",
+    "sass-resources-loader": "^2.0.1",
+    "vue-template-compiler": "^2.6.10",
+    "webfont-webpack-plugin": "^1.0.0"
   },
   "browserslist": [
     "Android >= 4.4",

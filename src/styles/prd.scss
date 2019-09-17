@@ -1,0 +1,13 @@
+/* 生产环境 */
+@function strip-unit($number) {
+	@if type-of($number) == 'number' and not unitless($number) {
+		@return $number / ($number * 0 + 1);
+	}
+	@return $number;
+}
+
+@function u-rem($value) {
+	@return #{strip-unit(2 * $value)}rpx;
+}
+
+@import "./index";

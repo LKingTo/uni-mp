@@ -7,7 +7,7 @@
 </template>
 
 <script>
-	import comTest from '../../components/test/test';
+	import comTest from '../../components/test';
 	export default {
 		data() {
 			return {

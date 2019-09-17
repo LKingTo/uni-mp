@@ -3,6 +3,12 @@
 		view {{ demo }}
 		view {{ moduleDemoGetter }}
 		view {{ 0.001456 | percent }}
+		view iconfont图标：
+		.u-icon.u-icon-left
+		.u-icon.u-icon-right
+		.u-icon.u-icon-up
+		.u-icon.u-icon-down
+		.u-icon.u-icon-transaction
 		button(@click="change") bind click
 		button(@click="doCommit") store module commit demo
 		button(@click="doAction") store module action demo
@@ -48,6 +54,6 @@
 <style lang="scss" scoped>
 	.com-test {
 		color: #999999;
-		font-size: 28upx;
+		font-size: u-rem(18px);
 	}
 </style>
