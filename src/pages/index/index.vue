@@ -25,6 +25,17 @@ export default {
     comTest,
   },
   methods: {},
+  onShareAppMessage(res) {
+    if (res.from === 'button') { // 来自页面内分享按钮
+      console.log(res.target);
+    }
+    return {
+      title: 'uni-mp',
+      desc: 'uni-mp',
+      path: '/pages/index/index?id=123',
+      imageUrl: 'https://www.baidu.com/img/bd_logo1.png?where=super',
+    };
+  },
 };
 </script>
 
