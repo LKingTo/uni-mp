@@ -1,107 +1,106 @@
 /* iconfont template */
 @font-face {
-	font-family: "u-font";
-	font-style: normal;
-	font-weight: 400;
-	font-display: auto;
-	src: url("../../styles/fonts/u-font.eot");
-	src: url("../../styles/fonts/u-font.eot?#iefix") format("embedded-opentype"), url("../../styles/fonts/u-font.woff2") format("woff2"), url("../../styles/fonts/u-font.woff") format("woff"), url("../../styles/fonts/u-font.ttf") format("truetype"), url("../../styles/fonts/u-font.svg#u-font") format("svg");
+  font-family: "u-font";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("../../styles/fonts/u-font.eot");
+  src: url("../../styles/fonts/u-font.eot?#iefix") format("embedded-opentype"), url("../../styles/fonts/u-font.woff2") format("woff2"), url("../../styles/fonts/u-font.woff") format("woff"), url("../../styles/fonts/u-font.ttf") format("truetype"), url("../../styles/fonts/u-font.svg#u-font") format("svg");
 }
 
 .u-icon {
-	display: inline-block;
-	font-family: "u-font";
-	font-weight: 400;
-	font-style: normal;
-	font-variant: normal;
-	text-rendering: auto;
-	line-height: 1;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: "u-font";
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
-
 .u-icon-bianji::before {
-	content: "\ea01";
+  content: "\ea01";
 }
 
 .u-icon-chenggong::before {
-	content: "\ea02";
+  content: "\ea02";
 }
 
 .u-icon-dianzan::before {
-	content: "\ea03";
+  content: "\ea03";
 }
 
 .u-icon-down::before {
-	content: "\ea04";
+  content: "\ea04";
 }
 
 .u-icon-fenxiang::before {
-	content: "\ea05";
+  content: "\ea05";
 }
 
 .u-icon-jianshao::before {
-	content: "\ea06";
+  content: "\ea06";
 }
 
 .u-icon-left::before {
-	content: "\ea07";
+  content: "\ea07";
 }
 
 .u-icon-pengyouquan::before {
-	content: "\ea08";
+  content: "\ea08";
 }
 
 .u-icon-right::before {
-	content: "\ea09";
+  content: "\ea09";
 }
 
 .u-icon-saoyisao::before {
-	content: "\ea0a";
+  content: "\ea0a";
 }
 
 .u-icon-shanchu::before {
-	content: "\ea0b";
+  content: "\ea0b";
 }
 
 .u-icon-shezhi::before {
-	content: "\ea0c";
+  content: "\ea0c";
 }
 
 .u-icon-shoucang::before {
-	content: "\ea0d";
+  content: "\ea0d";
 }
 
 .u-icon-shuaxin::before {
-	content: "\ea0e";
+  content: "\ea0e";
 }
 
 .u-icon-sousuo::before {
-	content: "\ea0f";
+  content: "\ea0f";
 }
 
 .u-icon-transaction::before {
-	content: "\ea10";
+  content: "\ea10";
 }
 
 .u-icon-tupian::before {
-	content: "\ea11";
+  content: "\ea11";
 }
 
 .u-icon-up::before {
-	content: "\ea12";
+  content: "\ea12";
 }
 
 .u-icon-weixin::before {
-	content: "\ea13";
+  content: "\ea13";
 }
 
 .u-icon-xiazai::before {
-	content: "\ea14";
+  content: "\ea14";
 }
 
 .u-icon-zengjia::before {
-	content: "\ea15";
+  content: "\ea15";
 }
 
