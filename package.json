@@ -35,7 +35,7 @@
     "@dcloudio/uni-stat": "^2.0.0-22420190823019",
     "autoprefixer": "^9.6.1",
     "flyio": "^0.6.2",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "postcss-import": "^12.0.1",
     "regenerator-runtime": "^0.12.1",
     "vue": "^2.6.10",
